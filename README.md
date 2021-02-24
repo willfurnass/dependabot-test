@@ -1,0 +1,3 @@
+# dependabot-test
+
+How well does dependabot understand pyproject.toml/poetry.lock files?  Let's find out...
