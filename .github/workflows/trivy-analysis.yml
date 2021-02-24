@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@master
+        uses: rahul2393/trivy-action@scan-type
         with:
           scan-type: 'fs'
           format: 'template'
